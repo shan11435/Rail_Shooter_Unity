@@ -15,11 +15,11 @@ C:/Users/Tahsin/Desktop/Rail_Shooter_Unity/Argon_Assault
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56383
+60063
 Successfully changed project path to: C:/Users/Tahsin/Desktop/Rail_Shooter_Unity/Argon_Assault
 C:/Users/Tahsin/Desktop/Rail_Shooter_Unity/Argon_Assault
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.66 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001815 seconds.
+Registered in 0.001894 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 68.49 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.207 seconds
+- Completed reload, in  1.572 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1207ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (1572ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (414ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (164ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (34ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003080 seconds.
+Registered in 0.114844 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.89 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.524 seconds
+- Completed reload, in  1.740 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1525ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1741ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1321ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1513ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (810ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (969ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (673ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (819ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.5 MB.
-System memory in use after: 91.4 MB.
+Unloading 1742 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.4 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2043.
-Total: 2.211400 ms (FindLiveObjects: 0.150600 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.795100 ms  DeleteObjects: 0.208700 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2198.
+Total: 4.279200 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.076300 ms MarkObjects: 3.688900 ms  DeleteObjects: 0.358200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,9 +134,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Rock.terrainlayer
-  artifactKey: Guid(86fbf4388a0692a4894d3cb586c7e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock.terrainlayer using Guid(86fbf4388a0692a4894d3cb586c7e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca95295734fa9f760a3ecd568021dfdc') in 0.073854 seconds 
-  Import took 0.076535 seconds .
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(bd9024c5647f703448caa2d27f6953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(bd9024c5647f703448caa2d27f6953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeefaa142ad3ff791d2c3a72b3a39807') in 0.209423 seconds 
+  Import took 0.213883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.935236 seconds.
+  path: Assets/Timeline/Master Timeline.playable
+  artifactKey: Guid(213ec97558a1c51418b514942f9cc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Timeline/Master Timeline.playable using Guid(213ec97558a1c51418b514942f9cc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc9fb568b84c436c76a194749fd17db') in 0.028921 seconds 
+  Import took 0.034652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.090249 seconds.
+  path: Assets/Timeline/Master Timeline.playable
+  artifactKey: Guid(213ec97558a1c51418b514942f9cc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Timeline/Master Timeline.playable using Guid(213ec97558a1c51418b514942f9cc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8de64af8cf59f64f95c9eade3a49fc') in 0.009150 seconds 
+  Import took 0.013473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.482682 seconds.
+  path: Packages/com.unity.recorder/package.json
+  artifactKey: Guid(85148e7c451fe2c49a95da1805155d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/package.json using Guid(85148e7c451fe2c49a95da1805155d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d00f3b0a40f7345e1ee25aaf665655d') in 0.017341 seconds 
+  Import took 0.020862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.442202 seconds.
+  path: Packages/com.unity.recorder/Editor/Unity.Recorder.Editor.asmdef
+  artifactKey: Guid(847b179520b009e4c8d15c296b1cbf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/Editor/Unity.Recorder.Editor.asmdef using Guid(847b179520b009e4c8d15c296b1cbf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22514ff7addfc76fe601d0a6805a651f') in 0.011781 seconds 
+  Import took 0.015307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.077555 seconds.
+  path: Packages/com.unity.recorder/Editor/Unity.Recorder.Editor.api
+  artifactKey: Guid(8af856e55aba3a842bb65372ce3b86ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/Editor/Unity.Recorder.Editor.api using Guid(8af856e55aba3a842bb65372ce3b86ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120e4b57efcd2d7ff149c30139237699') in 0.011391 seconds 
+  Import took 0.016021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.089604 seconds.
+  path: Packages/com.unity.recorder/Runtime/Unity.Recorder.asmdef
+  artifactKey: Guid(832a8ef6e615e9a41a5076e1c9a43782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/Runtime/Unity.Recorder.asmdef using Guid(832a8ef6e615e9a41a5076e1c9a43782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3068fa4c58ef3e7f940a4ff4e0ea0e1c') in 0.013834 seconds 
+  Import took 0.018839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.114163 seconds.
+  path: Packages/com.unity.recorder/Runtime/Unity.Recorder.api
+  artifactKey: Guid(428b801a7dffc63478778d1e864cb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/Runtime/Unity.Recorder.api using Guid(428b801a7dffc63478778d1e864cb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a59b7d8d1b54d969d5127c4d3ce6c11') in 0.009823 seconds 
+  Import took 0.018136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.735507 seconds.
+  path: Packages/com.unity.recorder/Runtime/Base
+  artifactKey: Guid(db284c900559dbf4f8828277b67c6fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/Runtime/Base using Guid(db284c900559dbf4f8828277b67c6fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be356b629740e451bad5107ac22b0655') in 0.015315 seconds 
+  Import took 0.020140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050876 seconds.
+  path: Packages/com.unity.recorder/Runtime/Base/Unity.Recorder.Base.asmdef
+  artifactKey: Guid(d87af21afaaf27f45b873a9ab462bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/Runtime/Base/Unity.Recorder.Base.asmdef using Guid(d87af21afaaf27f45b873a9ab462bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43bd6673d62087d2a98a11208e0fbe7') in 0.010018 seconds 
+  Import took 0.014275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.411682 seconds.
+  path: Packages/com.unity.recorder/Plugins
+  artifactKey: Guid(4db884a9e7f21294db0cb9409806c549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/Plugins using Guid(4db884a9e7f21294db0cb9409806c549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffa4b66d37a401ef28f83d359bc1b0a') in 0.014580 seconds 
+  Import took 0.019958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.723917 seconds.
+  path: Packages/com.unity.recorder/Plugins/x64
+  artifactKey: Guid(cf2afc31a5d390947b0267f9b07c27fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/Plugins/x64 using Guid(cf2afc31a5d390947b0267f9b07c27fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7dcf12ad1561cb1c4cea86e6be3c09') in 0.014480 seconds 
+  Import took 0.017744 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
