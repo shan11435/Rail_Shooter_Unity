@@ -6,9 +6,20 @@ public class PlayerControls : MonoBehaviour
 {
     //this allows you to control how fast the player moves in unity editor
     [SerializeField] float controlSpeed = 10f;
+    //this allows you to control how much the player can appear in the x-axis screen
     [SerializeField] private float xRange = 5f;
+    //this allows you to control how much the player can appear in the y-axis screen
     [SerializeField] private float yRange = 5f;
+    //this allows you to control how much the player can appear in the -y-axis screen
     [SerializeField] private float negYRange = -7f;
+
+    //this controls the rotation ability for the object
+    [SerializeField] private float positionPitchFactor = -2f;
+    [SerializeField] private float positionYawFactor = 5f;
+    [SerializeField] private float controlPitchFactor = -10f;
+    [SerializeField] private float controlRollFactor = -20f;
+
+    float xThrow, yThrow;
     void Update()
     {
         ProcessTranslation();
@@ -17,15 +28,24 @@ public class PlayerControls : MonoBehaviour
 
     private void ProcessRotation()
     {
-        transform.localRotation = Quaternion.Euler(-30f, 30f, 0f);
+        //transform.localPosition shows where the object is in the world.
+        float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;
+        float pitchDueToControlThrow = yThrow * controlPitchFactor;
+        
+        
+        float pitch = pitchDueToPosition + pitchDueToControlThrow;
+        float yaw = transform.localPosition.x * positionYawFactor;
+        float roll = xThrow * controlRollFactor;
+        
+        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
     private void ProcessTranslation()
     {
         //this makes the player move when pressing left or right key or A or D key
-        float xThrow = Input.GetAxis("Horizontal");
+        xThrow = Input.GetAxis("Horizontal");
         //this makes the player move when pressing up or down keys or W or S keys
-        float yThrow = Input.GetAxis("Vertical");
+        yThrow = Input.GetAxis("Vertical");
 
         //this line makes the player move left or right when pressing the xThrow keys
         float xOffset = xThrow * Time.deltaTime * controlSpeed;

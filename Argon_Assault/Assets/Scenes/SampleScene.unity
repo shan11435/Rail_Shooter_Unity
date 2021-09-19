@@ -169,7 +169,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49802319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 359, y: 136.18, z: -10.75}
+  m_LocalPosition: {x: 359, y: 136.18, z: 6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -395,7 +395,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 54.5
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -606,22 +606,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633807244}
     m_Modifications:
-    - target: {fileID: 680526777, guid: 6b459f161267cea459f8d0af8c50032f, type: 3}
-      propertyPath: xRange
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 680526777, guid: 6b459f161267cea459f8d0af8c50032f, type: 3}
-      propertyPath: yRange
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 680526777, guid: 6b459f161267cea459f8d0af8c50032f, type: 3}
-      propertyPath: negYRange
-      value: -2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 680526777, guid: 6b459f161267cea459f8d0af8c50032f, type: 3}
-      propertyPath: controlSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 6225857779629188473, guid: 6b459f161267cea459f8d0af8c50032f, type: 3}
       propertyPath: m_Name
       value: PlayerShip
