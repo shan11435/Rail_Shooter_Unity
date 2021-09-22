@@ -24,7 +24,10 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
+
+  
 
     private void ProcessRotation()
     {
@@ -64,5 +67,13 @@ public class PlayerControls : MonoBehaviour
         //Vector3 is used if your making a 3d game
         //Vector2 is used to make 2d games
         transform.localPosition = new Vector3 (clampedXPos, clampedYPos, transform.localPosition.z);
+    }  
+    void ProcessFiring()
+    {
+        //if we're pushing a fire button, then print shooting, else don't print shooting
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Debug.Log("shooting");
+        }
     }
 }
