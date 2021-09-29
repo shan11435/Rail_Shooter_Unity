@@ -1,19 +1,32 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
+    //header is shown in the inspector, it tells what the serialize fields are
+    [Header("General Setup Settings")]
     //this allows you to control how fast the player moves in unity editor
+    [Tooltip("How fast the ship is moving")] 
     [SerializeField] float controlSpeed = 10f;
     //this allows you to control how much the player can appear in the x-axis screen
+    [Tooltip("how much the player isn't outside the screen horizontally")] 
     [SerializeField] private float xRange = 5f;
     //this allows you to control how much the player can appear in the y-axis screen
+    [Tooltip("how much the player isn't outside the screen vertically up")] 
     [SerializeField] private float yRange = 5f;
     //this allows you to control how much the player can appear in the -y-axis screen
+    [Tooltip("how much the player isn't outside the screen vertically down")] 
     [SerializeField] private float negYRange = -7f;
+    
+    //in simple terms its an array named lazers
+    [Header("Lazer gun array")]
+    [Tooltip("Add all player lazers here")]
+    [SerializeField] private GameObject[] lazers;
 
     //this controls the rotation ability for the object
+    [Header("Ship rotation control settings")]
     [SerializeField] private float positionPitchFactor = -2f;
     [SerializeField] private float positionYawFactor = 5f;
     [SerializeField] private float controlPitchFactor = -10f;
@@ -73,7 +86,23 @@ public class PlayerControls : MonoBehaviour
         //if we're pushing a fire button, then print shooting, else don't print shooting
         if (Input.GetKey(KeyCode.Space))
         {
-            Debug.Log("shooting");
+            SetLasersActive(true);
+        }
+        else
+        {
+            SetLasersActive(false);
+        }
+    }
+
+    void SetLasersActive(bool isActive)
+    {
+        //for each of the lazers that we have, turn them on (activate them)
+        //laser is the index, and lazers is the array it's looping throiugh
+        foreach (GameObject laser in lazers)
+        {
+            //its calling the particle system of unity and then within particle system calling emission
+            var emissionModule = laser.GetComponent<ParticleSystem>().emission;
+            emissionModule.enabled = isActive;
         }
     }
 }
