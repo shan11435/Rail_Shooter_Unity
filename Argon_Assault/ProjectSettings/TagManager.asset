@@ -7,11 +7,14 @@ TagManager:
   - Boss
   - HitMarker
   - Enemy
+  - NPC3
+  - NPC4
+  - NPC5
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Post Processing
   - Water
   - UI
   - 
